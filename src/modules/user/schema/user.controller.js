@@ -10,13 +10,10 @@ const userRepository = AppDataSource.getRepository('User');
  * @description Creación de un nuevo usuario
  */
 const createUser = async (req = request, res = response) => {
-    // const user = req.body;
-
     try {
         const { name, email, password } = req.body;
         const hashedPassword = await bcrypt.hash(password, 10);
 
-        // const newUser = await userRepository.save(user);
         const newUser = await userRepository.save({ name, email, password: hashedPassword });
 
         res.status(201).json({ ok: true, user: newUser, msg: 'Usuario creado' });
@@ -31,7 +28,8 @@ const createUser = async (req = request, res = response) => {
 */
 const login = async (req = request, res = response) => {
     try {
-        const { email, password } = req.body;
+        /* Contaseña por defecto =000 */
+        const { email, password='000' } = req.body;
         const user = await userRepository.findOne({ where: { email } });
 
         if (!user) return res.status(404).json({ msg: 'Usuario no encontrado' });

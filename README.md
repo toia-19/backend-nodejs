@@ -1,6 +1,8 @@
 # Programación Backend + NODE JS
 
-Proyecto final de **Programación Backend**, Desarrollo de Software Full Stack II.
+Proyecto final de **Programación Backend**, Desarrollo de Software Full Stack II
+
+API RESTful para gestión de usuarios
 ---
 
 ## Tecnologías Utilizadas

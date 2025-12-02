@@ -10,7 +10,6 @@ Proyecto final de **Programación Backend**, Desarrollo de Software Full Stack I
 - **MySQL** (base de datos relacional)
 - **Joi** (validación de DTOs y variables de entorno)
 - **Passport + JWT** (autenticación)
-- **Socket.IO** (comunicación en tiempo real, opcional)
 - **Nodemon** (desarrollo con recarga automática)
 ---
 

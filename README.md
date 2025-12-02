@@ -78,6 +78,12 @@ Value: Bearer <token>
 ## Diagramas
 1. **Gráfico de MER**
 ```bash
-Diagrama de M.E.R
+Diagrama de M.E.R.
 ```
 ![MER](/src/assets/mer-backend.png)
+
+2. **Diagrama de Clases**
+```bash
+Diagrama de Clases
+```
+![MER](src/assets/diagrama-de-clases-backend.png)

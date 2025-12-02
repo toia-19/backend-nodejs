@@ -26,20 +26,6 @@ const createUser = async (req = request, res = response) => {
     }
 };
 
-/* const register = async (req, res) => {
-    try {
-        const { name, email, password } = req.body;
-        const hashedPassword = await bcrypt.hash(password, 10);
-
-        const newUser = await repo.save({ name, email, password: hashedPassword });
-
-        res.status(201).json({ ok: true, message: 'Usuario registrado', user: newUser });
-    } catch (error) {
-        res.status(400).json({ ok: false, error });
-    }
-};
- */
-
 /**
  * @description Inicio de sesión por email y contraseña
 */

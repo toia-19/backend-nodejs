@@ -76,14 +76,11 @@ Value: Bearer <token>
 
 ---
 ## Diagramas
-1. **Gráfico de MER**
+1. **Gráfico de MER**<br>
 ![MER](/src/assets/mer-backend.png)
----
 
-2. **Diagrama de Clases**
+2. **Diagrama de Clases**<br>
 ![MER](src/assets/diagrama-de-clases-backend.png)
----
 
-3. **Diagrama de Secuencia**
+3. **Diagrama de Secuencia**<br>
 ![MER](src/assets/diagrama-de-secuencia.png)
----

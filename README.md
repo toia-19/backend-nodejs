@@ -79,5 +79,5 @@ Value: Bearer <token>
 1. **Gráfico de MER**
 ```bash
 Diagrama de M.E.R
-![MER](/src/assets/mer-backend.png)
 ```
+![MER](/src/assets/mer-backend.png)

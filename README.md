@@ -19,6 +19,8 @@ Proyecto final de **Programación Backend**, Desarrollo de Software Full Stack I
 ```bash
 git clone https://github.com/toia-19/backend-nodejs.git
 cd backend-nodejs
+```
+
 2. **Instala las dependencias**
 ```bash
 npm install

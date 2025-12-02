@@ -22,7 +22,9 @@ cd backend-nodejs
 2. **Instala las dependencias**
 ```bash
 npm install
-3. **Crea un archivo .env en la raíz del proyecto:
+```
+
+3. **Crea un archivo .env en la raíz del proyecto:**
 ```bash
 PORT=3000
 DATABASE=its_nodejs
@@ -31,10 +33,12 @@ DB_PASS=tu_password
 DB_PORT=3306
 DB_HOST=localhost
 JWT_SECRET=password_secreto
+```
+
 4. **Ejecuta la aplicación**
 ```bash
 `nodemon index.js` - Ejecuta la aplicación
-
+```
 ---
 
 ## Endpoints principales

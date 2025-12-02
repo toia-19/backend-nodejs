@@ -77,4 +77,5 @@ Value: Bearer <token>
 ---
 ## Diagramas
 1. **Gráfico de M.E.R.**
+Diagrama de M.E.R
 ![MER](/src/assets/mer-backend.png)
